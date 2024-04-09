@@ -2,10 +2,9 @@ package org.zhiran.pojo;
 
 import lombok.Data;
 
-import java.net.Inet4Address;
 import java.time.LocalDateTime;
 @Data
-public class Article {
+public class Event {
     private Integer id;
     private String title;
     private String content;

@@ -7,6 +7,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.zhiran.pojo.Result;
 import org.zhiran.utils.JwtUtil;
+import org.zhiran.utils.ThreadLocalUtil;
+
 import java.util.Map;
 @Component
 public class LoginInterceptor implements HandlerInterceptor {
@@ -15,6 +17,7 @@ public class LoginInterceptor implements HandlerInterceptor {
         String token = request.getHeader("Authorization");
         try {
             Map<String,Object> clamis = JwtUtil.parseToken(token);//校验token
+            ThreadLocalUtil.set(clamis);
             return true;//通过
         } catch (Exception e) {
             response.setStatus(401);//http相应码为401
@@ -22,4 +25,8 @@ public class LoginInterceptor implements HandlerInterceptor {
         }
     }
 
+    @Override
+    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
+       ThreadLocalUtil.remove();
+    }
 }

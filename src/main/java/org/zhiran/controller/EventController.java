@@ -1,18 +1,17 @@
 package org.zhiran.controller;
 
 import jakarta.servlet.http.HttpServletResponse;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestHeader;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import org.zhiran.pojo.Event;
 import org.zhiran.pojo.Result;
-import org.zhiran.utils.JwtUtil;
-
-import java.util.Map;
+import org.zhiran.service.EventService;
 
 @RestController
-@RequestMapping("/article")
-public class ArticalController {
+@RequestMapping("/event")
+public class EventController {
+    @Autowired
+    private EventService eventService;
     @GetMapping("/list")
     public Result<String> list (@RequestHeader(name = "Authorization") String token , HttpServletResponse response){
 //        try {
@@ -24,4 +23,10 @@ public class ArticalController {
 //        }
 //    }
      return  Result.success("需求");
-}}
+}
+    @PostMapping("/add")
+    public Result add (@RequestBody Event event){
+        eventService.add(event);
+      return   Result.success("文章添加成功");
+    }
+}

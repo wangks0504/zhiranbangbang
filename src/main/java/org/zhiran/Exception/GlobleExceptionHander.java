@@ -11,6 +11,5 @@ public class GlobleExceptionHander {
     public Result GlobleExceptionHander(Exception e){
         e.printStackTrace();
         return Result.error(StringUtils.hasLength(e.getMessage())? e.getMessage() : "数据处理异常");
-
     }
 }

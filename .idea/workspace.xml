@@ -4,31 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c1635b4-6b35-4b29-8576-73c329d1c752" name="Changes" comment="firstCreateProject">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/Exception/GlobleExceptionHander.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/Interceptors/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/controller/ArticalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/pojo/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/pojo/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/utils/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/utils/Md5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/zhiranbangbangApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/zhiran/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/zhiran/JwtTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/zhiran/ThreadLocalTest.java" afterDir="false" />
+    <list default="true" id="0c1635b4-6b35-4b29-8576-73c329d1c752" name="Changes" comment="Sec2UpdateProject">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/mapper/EventMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/service/EventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/service/impl/EventServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/utils/ThreadLocalUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zhiran/Exception/GlobleExceptionHander.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/Exception/GlobleExceptionHander.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zhiran/Interceptors/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/Interceptors/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zhiran/controller/ArticalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/controller/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zhiran/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zhiran/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zhiran/pojo/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/pojo/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zhiran/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/pojo/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zhiran/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zhiran/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/zhiran/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/zhiran/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -82,13 +79,16 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
       "mongo",
       "mysql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL"
     ]
   }
 }]]></component>
@@ -100,6 +100,26 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Important(E)\zhiranbangbang\src\main\java\org\zhiran\utils" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="zhiranbangbangApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zhiranbangbang" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.zhiran.zhiranbangbangApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.zhiran.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.zhiranbangbangApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -125,7 +145,13 @@
       <workItem from="1711949050912" duration="20298000" />
       <workItem from="1712058740255" duration="416000" />
       <workItem from="1712059464260" duration="308000" />
-      <workItem from="1712135367904" duration="12189000" />
+      <workItem from="1712135367904" duration="29613000" />
+      <workItem from="1712245750327" duration="7782000" />
+      <workItem from="1712311218888" duration="4000" />
+      <workItem from="1712500974325" duration="22000" />
+      <workItem from="1712559844764" duration="11519000" />
+      <workItem from="1712644014167" duration="3129000" />
+      <workItem from="1712647373249" duration="2746000" />
     </task>
     <task id="LOCAL-00001" summary="firstAdd">
       <option name="closed" value="true" />
@@ -143,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711902787613</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sec2UpdateProject">
+      <option name="closed" value="true" />
+      <created>1712168412350</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712168412350</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,15 +186,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="firstAdd" />
     <MESSAGE value="firstCreateProject" />
-    <option name="LAST_COMMIT_MESSAGE" value="firstCreateProject" />
+    <MESSAGE value="Sec2UpdateProject" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sec2UpdateProject" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="jakarta.validation.ConstraintViolationException" package="jakarta.validation" />
           <option name="timeStamp" value="9" />
@@ -169,6 +200,24 @@
           <properties class="org.springframework.web.HttpRequestMethodNotSupportedException" package="org.springframework.web" />
           <option name="timeStamp" value="10" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="11" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.mybatis.spring.MyBatisSystemException" package="org.mybatis.spring" />
+          <option name="timeStamp" value="12" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/zhiran/mapper/EventMapper.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/zhiran/service/impl/EventServiceImpl.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
