@@ -12,6 +12,7 @@ import org.zhiran.utils.ThreadLocalUtil;
 import java.util.Map;
 @Component
 public class LoginInterceptor implements HandlerInterceptor {
+    //这个访问拦截器只是检测token能否被解析解析失败 则token错误 解析成功就成功了老弟
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         String token = request.getHeader("Authorization");
