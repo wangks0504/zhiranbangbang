@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.zhiran.mapper.EventMapper">
+    <select id="list" resultType="org.zhiran.pojo.Event">
+        select * from event
+        <where>
+            <if test="userId == 1">
+                1=1
+            </if>
+            <if test="userId != 1">
+                <if test="categoryId!=null">
+                    category_id = #{categoryId}
+                </if>
+                <if test="state!=null">
+                    and state = #{state}
+                </if>
+                and create_user = #{userId}
+            </if>
+        </where>
+    </select>
+    <delete id="delete">
+        delete from event
+        <where>
+            id = #{id}
+            <if test="userid != 1">
+                AND create_user = #{userId}
+            </if>
+        </where>
+    </delete>
+
+</mapper>

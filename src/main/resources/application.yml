@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/zhiranbangbang
+    username: root
+    password: 8172175153Oo
+#    配置连接数据库
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+#    将数据库中下划线命名转换为驼峰命名,从而使数据库中的数据和Springboot中的数据名称相互对应
+

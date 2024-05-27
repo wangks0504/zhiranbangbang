@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/org/zhiran/mapper/CategoryMapper.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/zhiran/mapper/EventMapper.java" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/zhiran/mapper/UserMapper.java" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/org/zhiran/mapper/EventMapper.xml" dialect="MySQL" />
+  </component>
+</project>
